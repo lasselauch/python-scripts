@@ -17,8 +17,8 @@ def VersionUp(path='', only_last=False, increment='up'):
 
     oldpath = path
 
-    if not os.path.exists(oldpath):
-        oldpath = False
+    #if not os.path.exists(oldpath):
+        #oldpath = False
 
     for i, m in enumerate(matches):
         v, old = m
@@ -32,8 +32,8 @@ def VersionUp(path='', only_last=False, increment='up'):
         new = str(increment).zfill(padding)
         path = path.replace(old, new)
 
-    if not os.path.exists(path):
-        path = False
+    #if not os.path.exists(path):
+        #path = False
 
     return oldpath, path
 

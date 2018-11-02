@@ -1,3 +1,5 @@
+#www.lasselauch.com/lab/
+#Use at your own risk
 import os, re
 
 def VersionUp(path="", last_version=False):

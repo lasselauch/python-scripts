@@ -2,8 +2,8 @@
 A place for garbage and also useful stuff...
 
 ## convert-psd.py
-Make sure to install: [psd_tools](https://pypi.org/project/psd-tools/) first ...<br>
-A quick Converter for converting PSD-Files to different Image-Types.
+Make sure to install: [psd_tools](https://pypi.org/project/psd-tools/)<br>
+A quick Converter for converting PSD-Files to different Image-Types:
 - <code>.psd</code> to <code>.png</code> _(convert-psd-to-png.bat)_
 - <code>.psd</code> to <code>.tif</code> _(convert-psd-to-tif.bat)_
 - Export Layers from <code>.psd</code> to unique Files. _(convert-psd-layers.bat)_

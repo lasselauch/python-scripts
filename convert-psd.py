@@ -1,3 +1,5 @@
+#www.lasselauch.com/lab/
+#Use at your own risk
 import sys
 import os
 from psd_tools import PSDImage
